@@ -1,0 +1,104 @@
+<!-- videos.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('https://thebridge.in/h-upload/2022/01/20/22071-untitled-design-2022-01-20t174422160.webp.jpg') center/cover no-repeat;
+            color: #fff;
+            text-align: center;
+        }
+
+        header {
+            background-color: #9e7f7f6b;
+            color: white;
+            padding: 2em;
+            text-align: center;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .video-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .video-panel {
+            flex: 0 1 calc(50% - 20px);
+            margin: 10px;
+        }
+
+        video {
+            width: 100%;
+            max-width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Video Gallery</h1>
+        <p>Watch Exciting Gaming Videos</p>
+    </header>
+
+    <section>
+        <h2>Latest Videos</h2>
+
+        <div class="video-container">
+            <!-- Video Panel 1 -->
+            <div class="video-panel">
+                <h3>BEASTS 1V2</h3>
+        
+                <video controls>
+                    <source src="video_20231124_215805_edit (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Video Panel 2 -->
+            <div class="video-panel">
+                <h3>BEASTS EASY 1V3</h3>
+                <video controls>
+                    <source src="video_20231124_213559_edit.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Popular Highlights</h2>
+
+        <div class="video-container">
+            <!-- Video Panel 3 -->
+            <div class="video-panel">
+                <h3>Video Title 3</h3>
+                <video controls>
+                    <source src="video_3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Video Panel 4 -->
+            <div class="video-panel">
+                <h3>Video Title 4</h3>
+                <video controls>
+                    <source src="video_4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
